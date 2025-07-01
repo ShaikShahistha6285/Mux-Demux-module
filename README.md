@@ -4,3 +4,12 @@ used FPGA board is BASYS3 digilent board.
 
 For hardware implementation please go through below mp4 link:
 https://drive.google.com/drive/folders/1CUp5ArChtYu7K1E50HFog-BQnTJPp6SL
+
+Steps to implementon Board:
+1)Xilinx vivado version 2019 or above is recommended 
+2)Save the design and testbench as verilog file (.v extension)
+3)Simulation : to verify the module according to testbench
+4)Run synthesis : to see the schematics
+5)Constraint file :provide input pins and output pins with I/O std as LVCMOS33 (.xdc extension ,written only once)
+6)generate bit stream (.bit file)
+7)perform hardware implementation
